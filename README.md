@@ -14,10 +14,12 @@ Setup Instructions
 1)Create a Telegram Bot
     -Go to https://t.me/botfather on Telegram
     -Create a new bot and replace telegram_bot_token
+    
 2)Download and Run LM Studio
     -Install LM Studio from https://lmstudio.ai/
     -Download a language model 
     -Launch the model and make sure it's running locally 
+    
 3)Install and Configure AnythingLLM
     -Clone the AnythingLLM 
     -Follow the setup instructions
@@ -43,6 +45,7 @@ Setup Instructions
     -e STORAGE_DIR="/app/server/storage" `
     mintplexlabs/anythingllm;
     -Connect AnythingLLM to your running LM Studio instance
+    
 4)Generate an API Key in AnythingLLM
     -Use the AnythingLLM web interface to generate an API key
     -Copy this key and replace api_key
